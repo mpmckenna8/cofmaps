@@ -14,6 +14,9 @@ in touch or just make the improvements yourself and show me!
 Banana Map on Mapbox:
 https://tiles.mapbox.com/mpmckenna8/edit/Bananas#2/0.0/0.0
 
+Data after a join to make it mapable on CartoDB https://mpmckenna8.cartodb.com/tables/banana_world_economic_ouput_unfao_copy/table
+
+
 I did some vanilla and chocolate maps on Google MyMaps I'm not terribly proud of but will post some links to those
 here once I trace down where I left em' on this here internet.
 
