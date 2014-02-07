@@ -1,0 +1,23 @@
+There are a number of countries which often cause probs when joining default Countries and UNFAO data here they are.
+
+To join future tables use https://mpmckenna8.cartodb.com/tables/tm_world_borders_joinunfao/
+
+
+Coffee: Cabo Verde has NULL value
+
+
+
+UN: China, Taiwan Province of
+carto: 
+
+UN: Myanmar
+carto: 
+
+UN: Venezuela (Bolivarian Republic of)
+carto: Venezuela
+fixed
+
+
+UN: China, mainland
+carto: China
+cartofixed
