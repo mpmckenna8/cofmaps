@@ -50,7 +50,5 @@ exports.quer2tab = function(client, querySt, html,res){
 
 
 
-
-
   return html
 }

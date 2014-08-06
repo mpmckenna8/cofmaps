@@ -3,26 +3,38 @@ var http = require('http');
 var postQ = require('./lib/postLine.js');
 var styleu = require('./lib/poststy.js');
 var fs = require('fs');
+var drpdown = require('./lib/dropper.js')
 
 var conString = "postgres://matthewmckenna:@localhost/cof";
+
+//load up that stylesheet
+var stylesh = fs.readFileSync('poster.css','utf-8');
+
 
 
 
 var server = http.createServer(function(req,res){
+
+
+  var headers =
+
+console.log(headers +'whyyyyyy');
+
   switch(req.method) {
   case 'GET':
     switch(req.url){
     case '/':
-      postQ.show(pg,res,conString);
+      postQ.show(pg, res,conString);
       console.log('should have tried a query');
       break;
     case '/poster.css':
-
-      var stylesh = fs.readFileSync('poster.css','utf-8');
       styleu.serveCSS(res,stylesh);
       console.log('at least trying to style')
 
       break;
+    case '/dropdown.html':
+     drpdown.dropDown(res,pg,conString)
+
     }
     break;
   }
